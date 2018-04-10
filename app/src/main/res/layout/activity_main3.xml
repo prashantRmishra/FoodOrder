@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_bg2"
+    tools:context="com.example.android.foodorder.Main3Activity">
+    <EditText
+        android:id="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:hint="your name"
+        android:background="#b53f4d"/>
+    <EditText
+        android:id="@id/number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:hint="phone number"
+        android:background="#b53f4d"
+        android:layout_below="@id/name"/>
+    <Button
+        android:id="@id/placeorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:hint="place order"
+        android:background="#b53f4d"/>
+
+</RelativeLayout>

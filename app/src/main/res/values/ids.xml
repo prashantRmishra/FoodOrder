@@ -5,4 +5,9 @@
     <item name="text1" type="id" />
     <item name="text3" type="id" />
     <item name="foodImage" type="id" />
+    <item name="buyButton" type="id" />
+    <item name="number" type="id" />
+    <item name="name" type="id" />
+    <item name="placeorder" type="id" />
+    <item name="infotext" type="id" />
 </resources>

@@ -4,14 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/finalfood1"
-    tools:context="com.example.android.foodorder.MainActivity">
-<android.support.v7.widget.RecyclerView
+    android:background="#91B53F4D"
+    tools:context="com.example.android.foodorder.Main4Activity">
+<TextView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="vertical"
-    android:id="@id/recyclerView"></android.support.v7.widget.RecyclerView>nt" />
-
-
-
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="Thank you so much for purchasing food from our app!"/>
 </RelativeLayout>

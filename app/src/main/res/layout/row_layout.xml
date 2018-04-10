@@ -7,6 +7,13 @@
         android:id="@id/text1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="hi"/>
+        android:text="hi"
+        android:textSize="25dp"
+
+        android:textColor="#000000"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#808080" />
 
 </RelativeLayout>

@@ -4,16 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#91B53F4D"
     tools:context="com.example.android.foodorder.Main2Activity">
 <ImageView
     android:id="@id/foodImage"
+    android:layout_alignParentTop="true"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
-    <Button
+    android:layout_height="200dp"
+
+    />
+    <TextView
+        android:id="@id/infotext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/foodImage"
+        android:text="happy food ordering"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_above="@id/buyButton"/>
+
+    <Button
+        android:id="@id/buyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#b53f4d"
         android:text="BUY"
-        android:textSize="30dp"/>
+        android:textSize="25dp" />
 
 </RelativeLayout>
